@@ -1,0 +1,62 @@
+body {
+  background-color: rgb(219, 158, 26);
+}
+
+h1 {
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.credits {
+  display: block;
+  width: fit-content;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.credits, .credits > a {
+  font-size: 0.9rem;
+}
+
+.credits > a {
+  text-decoration: underline;
+  color: white;
+}
+
+a, p, span {
+  color: #ffea05;
+}
+
+div.info {
+  width: 80%;
+  margin: auto;
+}
+
+p.backstory {
+  text-align:center;
+}
+
+button {
+  width: min(100%, 60rem);
+  height: fit-content;
+  padding: 0.7rem;
+  font-size: 20px;
+  background: #ffff2e;
+  color: #000000;
+  border: 2px solid #000000;
+  border-radius:10px;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.4s ease-in-out;
+	text-align: center;
+  display: block;
+  margin: auto;
+}
+
+button:hover {
+  background:#000000;
+  color: rgb(219, 158, 26);
+	border:3px solid rgb(219, 158, 26);
